@@ -1,13 +1,13 @@
-let v1 = 3;
+let v1 = 3 // Semicolon removed
 let v2 = 4
-//alert("3 times 4" + equals + v1 * v2);
+alert("3 times 4 + equals " + v1 * v2); // Made code instead of comment
 
  // This sets the general styling for the divs within the section tag using .style
-            let section = document.getElementsById("s1")
+            let section = document.getElementById("s1") // Switched from getElementsById to getElementById
             section.style.width = "50%"
             section.style.textAlign = "center"
             section.style.fontFamily = "arial, serif"
-            section.stlye.fontWeight = "bold"
+            section.style.fontWeight = "bold"
             section.style.fontStyle = "italic"
             section.style.fontSize = "20px"
 
@@ -16,13 +16,13 @@ let v2 = 4
 			//.style.backgroundColor is used to assign a different background color to each div
 			
             // RED
-            const red = document.getelementById("red")
+            const red = document.getElementById("red") // Properly camelcased getElementById
             red.innerHTML = "RED"
             red.style.backgroundColor = "red"
 
             // ORANGE
             const orange = document.getElementById("orange")
-            orange.innerhtml = "ORANGE"
+            orange.innerHTML = "ORANGE" // Made into orange.innerHTML (was orange.innerhtml)
             orange.style.backgroundColor = "orange"
 
             // YELLOW
@@ -31,7 +31,7 @@ let v2 = 4
             yellow.style.backgroundColor = "yellow"
 
             // GREEN
-            const purple = document.getElementById("green")
+            const green = document.getElementById("green") // Switched from const purple to const green
             green.innerHTML = "GREEN"
             green.style.backgroundColor = "green"
 
